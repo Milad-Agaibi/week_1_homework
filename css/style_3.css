@@ -1,0 +1,11 @@
+/* Third style sheet: https://d39o10hdlsc638.cloudfront.net/bundles/shop/css/layout-print.css?v=1.01 */
+#header-outer, #footer-outer, #nav-outer, #nav-left, .breadcrumb {
+    display: none;
+}
+#body {
+    width: 100% !important;
+    float: none;
+}
+a[href]:after {
+    content: none;
+}
